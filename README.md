@@ -12,5 +12,5 @@ Note to self, have fun stop complaining.
 # Testing 1 2 5000
 
 #Updates:
-> Made an About Us and Team Page
-> Added Youtube link to homepage
+- Made an About Us and Team Page
+- Added Youtube link to homepage
