@@ -14,3 +14,4 @@ Note to self, have fun stop complaining.
 #Updates:
 - Made an About Us and Team Page
 - Added Youtube link to homepage
+- Made Navigation links on every page using Layouts
