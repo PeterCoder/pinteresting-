@@ -15,3 +15,6 @@ Note to self, have fun stop complaining.
 - Made an About Us and Team Page
 - Added Youtube link to homepage
 - Made Navigation links on every page using Layouts
+- Downloaded Bootstrap
+- Added container for better grid allignment
+- Updated Navbar
