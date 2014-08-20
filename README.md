@@ -18,3 +18,4 @@ Note to self, have fun stop complaining.
 - Downloaded Bootstrap
 - Added container for better grid allignment
 - Updated Navbar
+- Added Button and link on home page, and jumbotron
