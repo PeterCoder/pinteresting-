@@ -19,3 +19,5 @@ Note to self, have fun stop complaining.
 - Added container for better grid allignment
 - Updated Navbar
 - Added Button and link on home page, and jumbotron
+- Changed font 
+- Added Images
