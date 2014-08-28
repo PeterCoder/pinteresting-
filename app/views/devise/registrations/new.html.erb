@@ -12,14 +12,14 @@
 			<div>
 			  <%= f.label :email %><br />
 			  <%= f.email_field :email, autofocus: true %>
-			</div>	
+			</div><br/>
 
 			<div>
 			 	<%= f.label :password %> <% if @validatable %>
 			 	<i>(<%= @minimum_password_length %> characters minimum)</i><br />
 			 	<% end %>    
 			 	<%= f.password_field :password, autocomplete: "off" %>
-			 </div>
+			 </div><br/>
 			
 			  <%= f.submit "Sign up", class: "btn btn-primary" %>
 			

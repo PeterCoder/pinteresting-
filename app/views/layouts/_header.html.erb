@@ -9,8 +9,8 @@
         <span class="icon-bar"></span>
       </button>
 
-      <%= link_to "Pinteresting", root_path, class: "navbar-brand" %>
-
+      <%= link_to "† St Verena Armadale †", root_path, class: "navbar-brand" %><br/>
+     
     </div>
 
 
@@ -19,7 +19,7 @@
       <ul class="nav navbar-nav navbar-right"> 
         <li><%= link_to "Home", root_path %></li>
         <li><%= link_to "About", about_path %></li>
-        <li><%= link_to "Team", team_path %></li>
+        
         
         <% if user_signed_in? %>
         <li><%= link_to "Account Settings", edit_user_registration_path %></li>
