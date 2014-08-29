@@ -1,30 +1,35 @@
 
 
 <div class= 'jumbotron center'>
-<h1> Welcome to my first app! </h1>
-<p>For the fun of it... Click here to  <%= link_to "Visit Youtube", "https://www.youtube.com/watch?v=dQw4w9WgXcQ", class: "btn btn-primary btn-lg" %></p> 
-
-
-
-<% if user_signed_in? %> 
-# Now you're signed in! YAY... now what?... damn
-Dont Worry! I'll figure this part out eventually.
-<% else %>
-
-	<p> <%= link_to "Log In", new_user_session_path, class: "btn btn-default btn-lg" %>  
-			<%= link_to "Sign Up", new_user_registration_path, class: "btn btn-danger btn-lg" %>
+	<h1> St Verena's Coptic Orthodox Church </h1>
+	<h2> 583 Orrong Road, Armadale </h2>
+	<h3> Melbourne, Australia </h3>
+	<p> 
+		<%= link_to "Log In", new_user_session_path, class: "btn btn-default btn-lg" %>  
+		<%= link_to "Sign Up", new_user_registration_path, class: "btn btn-danger btn-lg" %>
 	</p> 
 
-</div>
-	
-<% end %><br/>
-<div class= 'image center'>
-	<img src= 'http://i58.tinypic.com/2rrx8hh.jpg', alt= 'responsive image' , class= 'image-responsive-circle' >
-</div><br/><br/>
-	
+		<img src="http://i58.tinypic.com/2rrx8hh.jpg" alt="responsive img" class="img-responsive">
+
 </div>
 
 
+
+
+
+
+	<% if user_signed_in? %> 
+	# Now you're signed in! YAY... now what?... damn
+	Dont Worry! I'll figure this part out eventually.
+	<% else %>
+
+
+
+
+	
+<% end %>
+
+	
 
 
 
