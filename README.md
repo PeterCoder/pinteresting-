@@ -21,3 +21,4 @@ Note to self, have fun stop complaining.
 - Added Button and link on home page, and jumbotron
 - Changed font 
 - Added Images
+- Made Videos page, and added videos

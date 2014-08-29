@@ -3,6 +3,7 @@ Rails.application.routes.draw do
   root "pages#home" # creates root_path
   get "about" => "pages#about" # creates about_path
   get "team" => "pages#team"   # creates team_path
+  get "videos" => "pages#videos" # creates videos_path
 
 
  
